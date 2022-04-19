@@ -29,6 +29,7 @@ standard = Room.new(capacity: 20)
 # # p standard
 csv_file_path = 'data/rooms.csv'
 room_repository = RoomRepository.new(csv_file_path)
+
 csv_file_path = 'data/patients.csv'
 patient_repository = PatientRepository.new(csv_file_path, room_repository)
 
